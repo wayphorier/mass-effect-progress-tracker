@@ -4,9 +4,11 @@ const config = {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    './page-views/**/*.{ts,tsx}',
+    './features/**/*.{ts,tsx}',
+    './shared/**/*.{ts,tsx}',
 	],
   prefix: "",
   theme: {
